@@ -1,0 +1,82 @@
+/* Basic page styling*/
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  background: #f3f8ff; /* Light, simple*/
+  color: #222;
+}
+
+.page {
+  max-width: 820px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  color: #0f5e9c;
+  margin-bottom: 12px;
+}
+
+h2 {
+  margin-top: 24px;
+  color: 0f5e9c;
+}
+
+/* Link styled like a simple button */
+.button {
+  display: inline-block;
+  margin: 8px 0 16px o;
+  padding: 8px 12px;
+  background: #0f5e9c;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background: #0c4a7a;
+}
+
+/* Highlighted inline text (shows span usage) */
+.highlight {
+  background: #fffbcc;
+  padding: 0 4px;
+}
+
+/* Images */
+img {
+ max-width: 100%;
+height: auto;
+border-radius: 6px; 
+}
+
+/* This keeps the main image centered at all viewport widths */
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Slight hero image spacing */
+.hero {
+  margin: 12px 0 16px 0;
+}
+
+/* Simple gallery */
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+/* Note paragrapgh */
+.note {
+  margin-top: 16px;
+  padding: 12px;
+  background: #e8f2ff;
+  border: 1px sold #cfe2ff;
+  border-radius: 6px;
+}
